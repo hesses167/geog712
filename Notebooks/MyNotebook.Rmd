@@ -1,0 +1,39 @@
+---
+title: "A notebook to illustrate notebooks"
+output:
+  html_document:
+    df_print: paged
+---
+
+# First header
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+## Second header
+
+An R Markdown Notebook is an example of [literate programming](https://en.wikipedia.org/wiki/Literate_programming)
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+***
+>> Compound interest is the most powerful force in the universe
+
+### Third header
+
+Add a new chunk by clicking the **Insert Chunk** button on the toolbar or by pressing ***Ctrl+Alt+I***.
+
+```{r}
+print("hello world")
+```
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+1. item a
+1. item b 
+1. item c
